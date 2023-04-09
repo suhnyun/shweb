@@ -62,13 +62,14 @@
   position: fixed;
 }
 
-#name{
+#name {
   font-size: 30px;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  font-family: 'Pretendard';
 }
 
 .resume{
