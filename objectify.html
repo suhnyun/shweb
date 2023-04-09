@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUHN DESIGN ARCHIVE</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="top">
+  <div class="home">
+    <a class="link" href="./index.html">< back to home</a>
+  </div>
+</div>
+
+<div class="content">
+  <div class="projectIntroduction">
+    <section class="left">
+      <div class="projectMember">
+        Team project
+      </div>
+      <div class="projectContribution">
+        contribution: 45%
+      </div>
+      <div class="projectRole">
+        (Branding, Graphic)
+      </div>
+      <div class="projectPeriod">
+        2022.10.24~2022.11.25
+      </div>
+    </section>
+    <section class="right">
+      <div class="projectDetailName">
+        Objectify
+      </div>
+      <div class="projectDetailInfo">
+        Ecofriendly Sustainable Kitchenware
+        <br>
+        Brand Renewal
+      </div>
+    </section>
+  </div>
+
+  <div id="main">
+  </div>
+</div>
+
+  <script>
+    var container = document.getElementById("main");
+
+    for (var i = 1; i <= 19; i++) {
+      var card = document.createElement("div");
+      card.className = "card";
+
+      var img = document.createElement("img");
+      img.src = "/img/objectify/obj" + i + ".jpg";
+
+      card.appendChild(img);
+      container.appendChild(card);
+    }
+  </script>
+</body>
+</html>
