@@ -111,7 +111,6 @@
 
 .hoverCard video, .hoverCard img, iframe {
   border: 1px solid var(--fg-10);
-  border-radius: 10px;
   display: block;
   width: 100%;
   height: auto;
