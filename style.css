@@ -211,18 +211,7 @@ a.hoverCard {
   grid-row: 1 / 2;
 }
 
-.projectContribution{
-  font-family: Pretendard;
-  font-size: 15px;
-  font-weight: 200;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.52;
-  letter-spacing: normal;
-  grid-row: 2 / 3;
-}
-
-.projectRole{
+.projectRole {
   font-family: Pretendard;
   font-size: 10px;
   font-weight: 200;
@@ -230,10 +219,10 @@ a.hoverCard {
   font-style: normal;
   line-height: 1.85;
   letter-spacing: normal;
-  grid-row: 3 / 4;
+  grid-row: 2 / 3;
 }
 
-.projectPeriod{
+.projectPeriod {
   font-family: Pretendard;
   font-size: 20px;
   font-weight: 300;
@@ -241,7 +230,7 @@ a.hoverCard {
   font-style: normal;
   line-height: 1.52;
   letter-spacing: normal;
-  grid-row: 5 / 6;
+  grid-row: 4 / 5;
 }
 
 .extra {
